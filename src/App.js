@@ -2,7 +2,7 @@ import Header from "./components/Header"
 import GlobalStyle from "./components/GlobalStyles"
 function App() {
   return (
-    <> <GlobalStyle />
+    <><GlobalStyle />
       <Header />
       Hello react
     </>
