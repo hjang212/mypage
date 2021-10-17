@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 const MainContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -20,26 +20,16 @@ const BtnList = styled.span`
   padding: 10px;
 `;
 const Header = () => {
-    return (
-      <MainContainer>
-        <Title>
-          회의 관리 시스템
-        </Title>
-        <BtnContainer>
-          <BtnList>
-            마이페이지
-          </BtnList>
-          <BtnList>
-           회의실
-          </BtnList>
-          <BtnList>
-            회의록
-          </BtnList>
-          <BtnList>
-           로그인
-          </BtnList>
-        </BtnContainer>
-      </MainContainer>
-    );
-  };
+  return (
+    <MainContainer>
+      <Title>회의 관리 시스템</Title>
+      <BtnContainer>
+        <BtnList>마이페이지</BtnList>
+        <BtnList>회의실</BtnList>
+        <BtnList>회의록</BtnList>
+        <BtnList>로그인</BtnList>
+      </BtnContainer>
+    </MainContainer>
+  );
+};
 export default Header;

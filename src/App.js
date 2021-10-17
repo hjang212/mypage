@@ -1,10 +1,12 @@
-import Header from "./components/Header"
-
+import GlobalStyle from "./components/GlobalStyles";
+import Header from "./components/Header";
+import SideBar from "./components/SideBar";
 function App() {
   return (
     <>
+      <GlobalStyle />
       <Header />
-      Hello react
+      <SideBar />
     </>
   );
 }
