@@ -1,14 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
 
-const GlobalStyle = createGlobalStyle
-`  ${reset}
+const GlobalStyle = createGlobalStyle`  ${reset}
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
-body {
+body {g
   color : black;
   background-color: white;
 }
@@ -34,5 +33,5 @@ li {
   list-style-type: none;
   padding: 0;
   margin: 0;
-}`
+}`;
 export default GlobalStyle;
