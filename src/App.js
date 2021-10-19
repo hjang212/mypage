@@ -1,7 +1,6 @@
 import GlobalStyle from "./components/GlobalStyles";
 import Header from "./components/Header";
 import SideBar from "./components/SideBar";
-import SearchArea from "./components/SearchArea";
 import MyPage from "./components/MyPage";
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <GlobalStyle />
       <Header />
       <SideBar />
-      <SearchArea />
       <MyPage />
     </>
   );
