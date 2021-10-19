@@ -5,7 +5,7 @@ const MainContainer = styled.div`
 `;
 
 const SubContainer = styled.div`
-  width: 80%;
+  width: 90%;
   max-width: 1000px;
   margin: 0 auto;
 `;
@@ -17,31 +17,31 @@ const OverviewContainer = styled.div`
 `;
 
 const DateContainer = styled.div`
-  font-size: 35px;
+  font-size: 30px;
+  margin-top: 40px;
 `;
 
 const OverviewBox = styled.div`
   width: 48%;
-  height: 170px;
+  height: 105px;
   background-color: lightgray;
   border-radius: 10px;
-  margin-top: 40px;
-  font-size: 25px;
+  margin-top: 15px;
+  font-size: 16px;
 `;
 
 const P = styled.p`
-  margin-top: 5px;
-  padding: 15px;
+  margin: 15px 15px;
 `;
 
 const DetailedContainer = styled.div`
   display: flex;
   width: 100%;
   border-radius: 10px;
-  margin-top: 40px;
-  font-size: 25px;
+  margin-top: 15px;
+  font-size: 16px;
   background-color: #344551;
-  height: 310px;
+  height: 200px;
 `;
 
 const PDetailedSidebar = styled.p`
@@ -58,15 +58,6 @@ const DetailedContainer2 = styled.div`
   width: 70%;
 `;
 
-const DetailedContainerCDC = styled.div`
-  text-align: right;
-  height: 60px;
-  line-height: 60px;
-  color: #fff;
-  background-color: #344551;
-  border-radius: 10px;
-`;
-
 const SidebarContainer = styled.div`
   width: 30%;
   border-radius: 10px;
@@ -75,11 +66,12 @@ const SidebarContainer = styled.div`
   text-align: center;
 `;
 
-const DetailedContainerSidebarDiv = styled.div`
-  margin-top: 60px;
+const DetailedContainerSidebar = styled.div`
+  margin-top: 15px;
 `;
 
 const DetailedContainerInfo = styled.div`
+  margin-top: 15px;
   text-align: center;
   color: #fff;
   border-radius: 10px;
@@ -105,7 +97,7 @@ const MyPage = () => {
           </OverviewContainer>
           <DetailedContainer>
             <SidebarContainer>
-              <DetailedContainerSidebarDiv>
+              <DetailedContainerSidebar>
                 <PDetailedSidebar>제목</PDetailedSidebar>
                 <PDetailedSidebar>회의실명</PDetailedSidebar>
                 <PDetailedSidebar>회의실 위치</PDetailedSidebar>
@@ -113,10 +105,9 @@ const MyPage = () => {
                 <PDetailedSidebar>예약시간</PDetailedSidebar>
                 <PDetailedSidebar>참석인원</PDetailedSidebar>
                 <PDetailedSidebar>회의 내용</PDetailedSidebar>
-              </DetailedContainerSidebarDiv>
+              </DetailedContainerSidebar>
             </SidebarContainer>
             <DetailedContainer2>
-              <DetailedContainerCDC>수정 삭제 닫기</DetailedContainerCDC>
               <DetailedContainerInfo>
                 <PDetailedInfo>내부회의</PDetailedInfo>
                 <PDetailedInfo>2회의실</PDetailedInfo>

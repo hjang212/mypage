@@ -3,7 +3,7 @@ const MainContainer = styled.div`
   position: absolute;
   background-color: #162936;
   height: 100vh;
-  width: 250px;
+  width: 200px;
   color: #fff;
 `;
 const SubContainer = styled.div`
@@ -12,6 +12,7 @@ const SubContainer = styled.div`
 const Ul = styled.ul``;
 const Li = styled.li`
   margin-top: 50px;
+  font-size: 17px;
 `;
 const SideBar = () => {
   return (

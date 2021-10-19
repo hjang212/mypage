@@ -14,7 +14,7 @@ const DatePickerBox = styled.select`
   border: none;
   text-align: center;
   background-color: #ccc;
-  font-size: 20px;
+  font-size: 16px;
   height: 35px;
   margin-right: 20px;
   width: 120px;
@@ -24,7 +24,7 @@ const SelectBox = styled.select`
   border: none;
   text-align: center;
   background-color: #ccc;
-  font-size: 20px;
+  font-size: 16px;
   height: 35px;
   margin-right: 20px;
   width: 120px;
@@ -34,7 +34,7 @@ const SearchBox = styled.input`
   border-radius: 25px;
   text-align: center;
   background-color: #ccc;
-  font-size: 20px;
+  font-size: 16px;
   height: 35px;
   margin-right: 20px;
   width: 300px;
@@ -43,8 +43,7 @@ const SearchBtn = styled.button`
   border-radius: 20px;
   border: none;
   background-color: #162936;
-  font-weight: lighter;
-  font-size: 20px;
+  font-size: 16px;
   height: 35px;
   width: 120px;
   color: #fff;
