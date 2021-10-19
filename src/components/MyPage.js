@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
+const IconSize = "2x";
 const MainContainer = styled.div`
   width: auto;
   margin-left: 250px;
 `;
-
 const SubContainer = styled.div`
   width: 90%;
   max-width: 1000px;
@@ -22,12 +24,23 @@ const DateContainer = styled.div`
 `;
 
 const OverviewBox = styled.div`
+  display: flex;
   width: 48%;
   height: 105px;
   background-color: lightgray;
   border-radius: 10px;
   margin-top: 15px;
   font-size: 16px;
+`;
+
+const OverviewBoxDetails = styled.div`
+  font-size: 16px;
+  width: 90%;
+`;
+
+const OverviewBoxIcon = styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 const P = styled.p`
@@ -85,14 +98,24 @@ const MyPage = () => {
           <DateContainer>9.20</DateContainer>
           <OverviewContainer>
             <OverviewBox>
-              <P>데일리 스탠드업</P>
-              <P>10시30분 ~ 10시40분</P>
-              <P>알렉스줌</P>
+              <OverviewBoxDetails>
+                <P>데일리 스탠드업</P>
+                <P>10시30분 ~ 10시40분</P>
+                <P>알렉스줌</P>
+              </OverviewBoxDetails>
+              <OverviewBoxIcon>
+                <FontAwesomeIcon icon={faChevronUp} size={IconSize} />
+              </OverviewBoxIcon>
             </OverviewBox>
             <OverviewBox>
-              <P>데일리 스탠드업</P>
-              <P>10시30분 ~ 10시40분</P>
-              <P>알렉스줌</P>
+              <OverviewBoxDetails>
+                <P>데일리 스탠드업</P>
+                <P>10시30분 ~ 10시40분</P>
+                <P>알렉스줌</P>
+              </OverviewBoxDetails>
+              <OverviewBoxIcon>
+                <FontAwesomeIcon icon={faChevronDown} size={IconSize} />
+              </OverviewBoxIcon>
             </OverviewBox>
           </OverviewContainer>
           <DetailedContainer>
@@ -121,14 +144,24 @@ const MyPage = () => {
           </DetailedContainer>
           <OverviewContainer>
             <OverviewBox>
-              <P>데일리 스탠드업</P>
-              <P>10시30분 ~ 10시40분</P>
-              <P>알렉스줌</P>
+              <OverviewBoxDetails>
+                <P>데일리 스탠드업</P>
+                <P>10시30분 ~ 10시40분</P>
+                <P>알렉스줌</P>
+              </OverviewBoxDetails>
+              <OverviewBoxIcon>
+                <FontAwesomeIcon icon={faChevronDown} size={IconSize} />
+              </OverviewBoxIcon>
             </OverviewBox>
             <OverviewBox>
-              <P>데일리 스탠드업</P>
-              <P>10시30분 ~ 10시40분</P>
-              <P>알렉스줌</P>
+              <OverviewBoxDetails>
+                <P>데일리 스탠드업</P>
+                <P>10시30분 ~ 10시40분</P>
+                <P>알렉스줌</P>
+              </OverviewBoxDetails>
+              <OverviewBoxIcon>
+                <FontAwesomeIcon icon={faChevronDown} size={IconSize} />
+              </OverviewBoxIcon>
             </OverviewBox>
           </OverviewContainer>
         </SubContainer>
